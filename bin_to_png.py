@@ -27,4 +27,4 @@ for row in range(dimension):
         img.putpixel((col,row), (r, g, b))
         count += 1
 
-img.save("/home/khrogos/sites/ddl/binpict/{}.png".format(bin_name))
+img.save("{}.png".format(bin_name))
